@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mitali Lalani | AI-Integrated EdTech Product Engineer</title>
+    <meta name="description" content="Portfolio of Mitali Lalani, a MERN Stack Developer specializing in AI-powered EdTech products, exam simulation workflows, and gRPC integrations.">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <canvas id="networkCanvas"></canvas>
+
+    <header class="navbar">
+        <div class="nav-container">
+            <a href="#" class="logo">MITALI<span>.dev</span></a>
+            <nav class="nav-links">
+                <a href="#journey" class="nav-link">Journey</a>
+                <a href="#skills" class="nav-link">Stack</a>
+                <a href="#projects" class="nav-link">Products</a>
+                <a href="#architecture" class="nav-link">Architecture</a>
+                <a href="#contact" class="nav-link cta-btn">Get In Touch</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="hero" class="hero-section">
+            <div class="hero-content">
+                <div class="badge">MERN Stack Developer</div>
+                <h1>Building AI-Powered <br><span class="gradient-text">Learning Experiences</span></h1>
+                <p class="typewriter-container">Specializing in <span id="typewriter"></span></p>
+                <div class="hero-ctas">
+                    <a href="#projects" class="btn primary-btn">View Architecture</a>
+                    <a href="#contact" class="btn secondary-btn">Contact Engineer</a>
+                </div>
+            </div>
+            <div class="hero-preview">
+                <div class="mock-window">
+                    <div class="mock-header"><span class="dot"></span><span class="dot"></span><span class="dot"></span><span class="mock-title">ai-evaluation-agent.js</span></div>
+                    <div class="mock-body">
+                        <pre><code><span class="keyword">const</span> evaluateAudio = <span class="function">async</span> (stream) => {
+    <span class="keyword">const</span> assessment = <span class="keyword">await</span> gRPC.invoke(LanguageCertClient);
+    <span class="keyword">return</span> AI.generateFeedback(assessment.transcription);
+};</code></pre>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="metrics-banner">
+            <div class="metric-card">
+                <h3 class="counter" data-target="3">0</h3>
+                <p>Years Experience</p>
+            </div>
+            <div class="metric-card">
+                <h3 class="counter" data-target="50">0</h3>
+                <p>Major Features Delivered</p>
+            </div>
+            <div class="metric-card">
+                <h3 class="counter" data-target="100">0</h3>
+                <p>API & gRPC Integrations</p>
+            </div>
+            <div class="metric-card">
+                <h3 class="counter" data-target="1000">0</h3>
+                <p>Hours Building EdTech Platforms</p>
+            </div>
+        </section>
+
+        <section id="journey" class="section-container reveal">
+            <div class="section-header">
+                <h2>Engineering Journey</h2>
+                <p>From core computational theory to production architecture.</p>
+            </div>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-card">
+                        <span class="timeline-date">2019 - 2023</span>
+                        <h3>B.E. Student</h3>
+                        <h4>Marwadi University</h4>
+                        <p>Established core foundations in data structures, database designs, and foundational software methodologies.</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-card">
+                        <span class="timeline-date">2023</span>
+                        <h3>Frontend Developer</h3>
+                        <h4>Bitnet Infotech</h4>
+                        <p>Transitioned into building responsive engineering dashboards, UI optimizations, and modular atomic UI components using React.js.</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-card">
+                        <span class="timeline-date">2023 - Present</span>
+                        <h3>MERN Stack Developer (EdTech & AI Specialist)</h3>
+                        <h4>Bitnet Infotech</h4>
+                        <p>Owned end-to-end features, designed real-time exam workflows, integrated AI scoring feedback, and mapped complex microservice layers with Google gRPC pipelines.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills" class="section-container reveal">
+            <div class="section-header">
+                <h2>Technical Infrastructure</h2>
+                <p>Production-ready engineering stacks optimized for data scale and clean logic execution.</p>
+            </div>
+            <div class="skills-grid">
+                <div class="skills-category-card">
+                    <h3>Frontend Engineering</h3>
+                    <div class="tech-tags">
+                        <span>React.js</span><span>Redux</span><span>Context API</span><span>Tailwind CSS</span><span>Bootstrap</span><span>HTML5/CSS3</span>
+                    </div>
+                </div>
+                <div class="skills-category-card">
+                    <h3>Backend & Systems</h3>
+                    <div class="tech-tags">
+                        <span>Node.js</span><span>Express.js</span><span>RESTful API Design</span><span>JWT Security</span><span>Middleware Architecture</span>
+                    </div>
+                </div>
+                <div class="skills-category-card">
+                    <h3>Databases & Storage</h3>
+                    <div class="tech-tags">
+                        <span>PostgreSQL</span><span>MongoDB</span><span>Schema Architecture</span><span>Query Optimization</span>
+                    </div>
+                </div>
+                <div class="skills-category-card">
+                    <h3>AI & Advanced Pipelines</h3>
+                    <div class="tech-tags">
+                        <span>Google gRPC Services</span><span>AI Agent Workflows</span><span>Automated Assessment Systems</span><span>Cursor & Codex</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="section-container reveal">
+            <div class="section-header">
+                <h2>Production Deployments</h2>
+                <p>Deep-dive into production-level EdTech architectures shipped to commercial users.</p>
+            </div>
+
+            <div class="project-list">
+                <div class="project-row glass-panel tilt-target">
+                    <div class="project-info">
+                        <div class="project-badge">AI + Exam Simulation</div>
+                        <h3>Alfa IELTS Platform</h3>
+                        <p>An enterprise-scale simulation environment designed for realistic high-stakes testing conditions. Features granular state synchronization with sub-modules.</p>
+                        <ul class="project-features">
+                            <li><strong>AI Engine:</strong> Seamless AI scoring models and detailed analytical feedback pipelines for Writing and Speaking modules.</li>
+                            <li><strong>Simulations:</strong> Implemented precise, real-time mock evaluation simulations across Listening, Reading, Writing, and Speaking tracks with unified timer arrays.</li>
+                            <li><strong>Integrations:</strong> Mapped Google gRPC streaming microservices seamlessly to Node.js backend layers.</li>
+                        </ul>
+                        <div class="tech-tags-small">
+                            <span>React</span><span>Node.js</span><span>PostgreSQL</span><span>gRPC</span><span>AI Integration</span>
+                        </div>
+                    </div>
+                    <div class="project-visual">
+                        <div class="ui-mockup shadow-glow">
+                            <div class="mock-row"><span class="bar long"></span><span class="bar status online"></span></div>
+                            <div class="mock-row"><span class="bar short"></span><span class="bar long"></span></div>
+                            <div class="mock-grid">
+                                <div class="mock-box"><h4>Speaking</h4><p>AI Evaluator Syncing...</p></div>
+                                <div class="mock-box"><h4>Writing</h4><p>Coherence: 8.5</p></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-row glass-panel invert-row tilt-target">
+                    <div class="project-info">
+                        <div class="project-badge">Performance Optimized EdTech</div>
+                        <h3>Alfa LanguageCert Platform</h3>
+                        <p>End-to-end dynamic module engineering mimicking certified testing framework constraints, maintaining robust performance metrics across erratic bandwidth constraints.</p>
+                        <ul class="project-features">
+                            <li><strong>State Management:</strong> Engineered advanced asynchronous submission systems for reading and listening components.</li>
+                            <li><strong>Data Pipelines:</strong> Handled complex file buffering workflows for localized browser audio playbacks and streaming uploads.</li>
+                        </ul>
+                        <div class="tech-tags-small">
+                            <span>React.js</span><span>Node.js</span><span>Express.js</span><span>PostgreSQL</span><span>gRPC Workflows</span>
+                        </div>
+                    </div>
+                    <div class="project-visual">
+                        <div class="ui-mockup shadow-glow">
+                            <div class="mock-row"><span class="bar long"></span><span class="bar status active"></span></div>
+                            <div class="mock-wave">
+                                <span></span><span></span><span></span><span></span><span></span>
+                                <p>gRPC Processing Node Stream</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-row glass-panel tilt-target">
+                    <div class="project-info">
+                        <div class="project-badge">Operations & Aggregated Analytics</div>
+                        <h3>Unified Admin Control Center</h3>
+                        <p>A centralized administrative framework designed to aggregate diagnostic events, user context states, content workflows, and sub-billing data configurations.</p>
+                        <ul class="project-features">
+                            <li><strong>Security Structure:</strong> Built secure structural pathways enforcing explicit JWT validations and granular Role-Based Access Controls (RBAC).</li>
+                            <li><strong>Data Visualizations:</strong> Designed real-time monitoring graphs capturing progress metrics, subscription lifecycles, and interactive schema filters with pagination blocks.</li>
+                        </ul>
+                        <div class="tech-tags-small">
+                            <span>MERN Stack</span><span>JWT Security</span><span>RBAC</span><span>Analytics Dashboard</span>
+                        </div>
+                    </div>
+                    <div class="project-visual">
+                        <div class="ui-mockup shadow-glow">
+                            <div class="mock-dashboard">
+                                <div class="db-sidebar"></div>
+                                <div class="db-main">
+                                    <div class="db-chart-placeholder"></div>
+                                    <div class="db-table-rows"><span></span><span></span><span></span></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="architecture" class="section-container reveal">
+            <div class="section-header">
+                <h2>Product Delivery Lifecycle</h2>
+                <p>How I systematically orchestrate structural software components.</p>
+            </div>
+            <div class="architecture-flow">
+                <div class="flow-step">
+                    <div class="step-num">01</div>
+                    <h4>API Schema Planning</h4>
+                    <p>Mapping endpoints, defining interfaces, payloads, and validating contracts.</p>
+                </div>
+                <div class="flow-step">
+                    <div class="step-num">02</div>
+                    <h4>Relational DB Mapping</h4>
+                    <p>Normalizing tabular schemas and establishing efficient execution indexing blocks.</p>
+                </div>
+                <div class="flow-step">
+                    <div class="step-num">03</div>
+                    <h4>Frontend Component Lifecycle</h4>
+                    <p>Structuring responsive, atomic interface components with lazy-loading performance.</p>
+                </div>
+                <div class="flow-step">
+                    <div class="step-num">04</div>
+                    <h4>AI Integration & Test Pipelines</h4>
+                    <p>Connecting analytical agent services and orchestrating multi-stage test simulations.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="section-container reveal">
+            <div class="contact-card glass-panel">
+                <h2>Let's build something intelligent.</h2>
+                <p>Seeking production roles specializing in full-stack architecture, complex AI platform configurations, or EdTech scale engineering.</p>
+                <div class="contact-channels">
+                    <a href="mailto:lalanimitali1802@gmail.com" class="channel">lalanimitali1802@gmail.com</a>
+                    <div class="social-row">
+                        <a href="#" target="_blank">LinkedIn</a>
+                        <a href="#" target="_blank">GitHub</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Mitali Lalani. Engineered with optimal JavaScript performance protocols.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
