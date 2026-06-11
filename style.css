@@ -292,3 +292,73 @@ footer { text-align: center; padding: 4rem 2rem; color: rgba(255,255,255,0.2); f
     .contact-card { padding: 2rem; }
     .channel { font-size: 1.1rem; }
 }
+
+
+/* Container Fixes to prevent image breakout */
+.project-visual {
+    width: 100%;
+    min-width: 0; /* Critical CSS fix for grid/flex item child overflow */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Premium Browser Mockup Wrapping Framework */
+.browser-mockup {
+    background: #0E131F;
+    border: 1px solid var(--border-color);
+    border-radius: 10px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 540px; /* Limits expansion on extra-wide screens */
+    height: 340px;    /* Explicit structural height constraint */
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.5);
+}
+
+.mock-header {
+    background: #151C2C;
+    padding: 0.75rem 1rem;
+    display: flex;
+    align-items: center;
+    flex-shrink: 0; /* Prevents header from squishing */
+    border-bottom: 1px solid var(--border-color);
+}
+
+.mock-url {
+    font-size: 0.75rem;
+    color: var(--text-secondary);
+    margin-left: 15px;
+    font-family: monospace;
+    background: rgba(255, 255, 255, 0.03);
+    padding: 0.15rem 0.75rem;
+    border-radius: 4px;
+    border: 1px solid var(--border-color);
+}
+
+/* Completely self-contained responsive image layout */
+.project-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Crops image cleanly inside your 340px container box */
+    object-position: top center; /* Prioritizes showing the header/hero of the platforms */
+    display: block;
+    opacity: 0.85;
+    transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+.browser-mockup:hover .project-img {
+    opacity: 1;
+    transform: scale(1.02); /* Subtle premium zoom on hover */
+}
+
+/* Unified Admin Interface Container Matching exact sizing */
+.ui-mockup-admin {
+    padding: 1.5rem;
+    background: #0E131F;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
